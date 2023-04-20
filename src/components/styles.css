@@ -1,0 +1,50 @@
+#product{
+    padding-top: 10px;
+    margin: 20px;
+    /* display: flex;
+    flex-direction: flex-end; */
+}
+
+.two{
+
+   display: flex;
+   justify-content: space-between;
+   /* flex-direction: end; */
+}
+.twos{
+    width: 200px;
+}
+#list{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 23% 25% 25% 23%;
+  
+  margin-right: 4px;
+    
+}
+.sku{
+    margin-right: 40px;
+    padding: 20px;
+}
+.name{
+    margin-right: 40px;
+    padding: 20px;
+}
+.price{
+    margin-right: 40px;
+    padding: 20px;
+}
+.type-switcher{
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.pikin{
+    margin: 20px;
+    height: 500px;
+    border-style: solid;
+    /* background-color: antiquewhite; */
+    width: 500px;
+    
+     border-color: black;
+}
