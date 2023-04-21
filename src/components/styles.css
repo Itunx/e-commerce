@@ -11,12 +11,12 @@
    justify-content: space-between;
    /* flex-direction: end; */
 }
-.twos{
+.delete-checkbox{
     width: 200px;
 }
 #list{
     display: grid;
-    gap: 10px;
+    gap: 10px; 
     grid-template-columns: 23% 25% 25% 23%;
   
   margin-right: 4px;

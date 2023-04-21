@@ -54,11 +54,11 @@ const Header = ({ ids, setDeleteStatus }) => {
             </Button>
             <Button
               variant="secondary"
-              className="twos"
+              className="delete-checkbox"
               id="delete-product-btn"
               onClick={() => handleDelete(ids)}
             >
-              Mass Delete
+              MASS DELETE
             </Button>
           </Col>
         </Row>
