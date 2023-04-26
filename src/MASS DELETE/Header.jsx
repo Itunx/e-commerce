@@ -49,7 +49,6 @@ const Header = ({ ids, setDeleteStatus }) => {
               variant="primary"
               onClick={navigateAddProduct}
               className="twos"
-              role="Button"
             >
               Add{" "}
             </Button>
@@ -58,7 +57,6 @@ const Header = ({ ids, setDeleteStatus }) => {
               className="delete-checkbox"
               id="delete-product-btn"
               onClick={() => handleDelete(ids)}
-              role="Button"
             >
               MASS DELETE
             </Button>
