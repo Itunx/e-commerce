@@ -20,6 +20,7 @@ function Addproduct() {
     length: "",
   });
   const navigate = useNavigate();
+   const BASE_URL = 'http://localhost/api/';  
 
   const handleSubmit = () => {
     // e.prevent.default();
@@ -37,7 +38,7 @@ function Addproduct() {
     if (product == "Furniture") {
       inputs["product_specific"] = [dvd, dimension.height, dimension.length];
     }
-    axios.post("http://localhost/api/", inputs).then(function (response) {
+    axios.post("https://itunx.000webhostapp.com/", inputs).then(function (response) {
       console.log(response.data);
       navigate("/");
     });

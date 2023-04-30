@@ -17,6 +17,7 @@ const Header = ({ ids, setDeleteStatus }) => {
     // 👇️ navigate to /contacts
     navigate("./Addproduct");
   };
+  const BASE_URL = "http://localhost/api/"; // Test server
 
   function handleDelete(ids) {
     if (!ids.length) {
@@ -24,7 +25,7 @@ const Header = ({ ids, setDeleteStatus }) => {
       return;
     }
     axios
-      .delete(`http://localhost/api/?ids=${ids.join()}`)
+      .delete(`https://itunx.000webhostapp.com/?ids=${ids.join()}`)
       .then(function (response) {
         console.log("response of delete operation: ", response);
         if (response.data.status === 0) {
